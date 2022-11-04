@@ -50,10 +50,10 @@ from flask import jsonify
 def checkExtraMethod():
     # Проверка TCP
     try:
-        ctcp = open('tc.exe')
+        ctcp = open('Client.exe')
     except:
         print(Fore.MAGENTA + 'ĐANG LẤY DỮ LIỆU VUI LÒNG ĐỢI...')
-        wget.download('https://drive.google.com/file/d/1c3IuzHDjiDsbNFVsjEtQQ0MJIZIsTzA5/view')
+        wget.download('https://drive.google.com/file/d/1UEgNQdysd8b35ornvEYR8Y5k69FZT_Ff')
         print(Fore.MAGENTA + 'Downloaded!')
 
 def countdown(t):
